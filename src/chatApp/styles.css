@@ -1,0 +1,36 @@
+.groups-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size:11px;
+    font-family: Helvetica;
+}
+
+.group-card {
+    border-radius:50%;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    margin: 10px;
+    height:80px;
+    width:80px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size:12px;
+    font-family: Helvetica;
+
+}
+
+.chat-room {
+    margin-top: 10px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}

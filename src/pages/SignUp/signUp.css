@@ -1,0 +1,76 @@
+/* SignUp.css */
+
+.mainForm{
+    padding: 0px;
+
+
+}
+.signup-container {
+    text-align: center;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.label {
+
+    display: block;
+    margin-bottom: 8px;
+    font-family: Helvetica;
+}
+
+.input1,
+.select1,
+.textarea1{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.9);
+    font-family: Helvetica;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #ccc;
+    font-size: 18px;
+    border-radius: 11px;
+    resize: none;
+}
+.button3{
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.9);
+    color:#fff;
+    font-family: Helvetica;
+    width: 300px;
+
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    background:#000;
+    border:1px solid #ccc;
+    font-size:18px;
+    border-radius: 50px;
+}
+.button2 {
+    background-color: white;
+    margin-top: 20px; /* Adjust the margin-top as needed */
+    color: black;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+.google-logo {
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+}
+.rvc-logo {
+    height: 300px;
+    width: 300px;
+
+}

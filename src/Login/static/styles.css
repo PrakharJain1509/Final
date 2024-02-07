@@ -1,0 +1,37 @@
+/* static/styles.css */
+
+
+.login-container {
+    text-align: center;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.button1 {
+    background-color: white;
+    margin-top: 20px; /* Adjust the margin-top as needed */
+    color: black;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+.google-logo {
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+}
+.rvc-logo {
+    height: 300px;
+    width: 300px;
+
+}
+/* Add more styles as needed */
